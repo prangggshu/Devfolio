@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-/**
- * @copyright codewithsadee 2023
- * @author Sadee <codewithsadee24@gmail.com>
- */
->>>>>>> 72b06fc8849c4fa7435d97d9d1e3be7211cadd8b
-
 "use strict";
 
 /**
