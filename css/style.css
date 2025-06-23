@@ -644,6 +644,22 @@ body{
 
 .resume-bottom-item .icon { height: 28px ;}
 
+[data-theme="dark"] .invert-this {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.resume-bottom-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.resume-bottom-item:hover {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: var(--surface-bright); /* optional: adds a glow effect on hover */
+}
+
+
 /*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
